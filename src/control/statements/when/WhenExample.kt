@@ -7,9 +7,9 @@ println(returnColorAsAString(Color.RED));
 fun returnColorAsAString(color: Color): String{
 
      return when(color){
-        Color.BLUE -> "color is blue"
-        Color.GREEN -> "color is green"
-        Color.RED -> "color is red"
+        Color.BLUE -> println("color is blue")
+        Color.GREEN ->println ("color is green")
+        Color.RED ->println ("color is red")
     }
 
 }
